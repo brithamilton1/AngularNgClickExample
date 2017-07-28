@@ -10,11 +10,12 @@
         <ul >
              <li ng-repeat="item in toDo | orderBy:'item' ">{{item}} </li>
         </ul>
-        <input ng-model="add" type="text" placeholder="add">
+        <input ng-model="add" type="text">
         <button ng-click="addToDo(add)">Add</button>
     </div>
 
            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+<!--  can delete min in the angular url to see more details about the error in the console -->
            <script src="index.js"></script>
   </body>
 </html>
